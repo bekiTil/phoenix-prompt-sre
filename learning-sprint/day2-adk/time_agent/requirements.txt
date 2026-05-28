@@ -1,0 +1,13 @@
+google-adk
+arize-phoenix-otel
+openinference-instrumentation-google-adk
+python-dotenv
+opentelemetry-api==1.41.1
+opentelemetry-sdk==1.41.1
+opentelemetry-semantic-conventions==0.62b1
+opentelemetry-instrumentation==0.62b1
+opentelemetry-exporter-otlp==1.41.1
+opentelemetry-exporter-otlp-proto-common==1.41.1
+opentelemetry-exporter-otlp-proto-http==1.41.1
+opentelemetry-exporter-otlp-proto-grpc==1.41.1
+opentelemetry-proto==1.41.1

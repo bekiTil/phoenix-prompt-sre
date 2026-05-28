@@ -1,0 +1,26 @@
+[project]
+name = "phoenix-prompt-sre"
+version = "0.1.0"
+description = "A self-improving agent that fixes prompt regressions in production LLM apps."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Bereket Tilahun Shimekit" }]
+
+dependencies = [
+  "google-adk",
+  "google-genai",
+  "arize-phoenix>=16",
+  "arize-phoenix-otel",
+  "arize-phoenix-client",
+  "openinference-instrumentation-google-adk",
+  "python-dotenv",
+  "pandas",
+  "pygithub",
+  "opentelemetry-api==1.41.1",
+  "opentelemetry-sdk==1.41.1",
+  "opentelemetry-semantic-conventions==0.62b1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
